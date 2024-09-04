@@ -27,10 +27,17 @@ When I’m not working on my projects or studying, I enjoy connecting with fello
 
 
 ### My Skills
-
+ 
 <style>
-td, th {
-   border: none!important;
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+   border: none;
+}
+blockquote {
+    border-left: none;
+    padding-left: 10px;
 }
 </style>
 

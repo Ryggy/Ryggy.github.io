@@ -9,6 +9,8 @@ subtitle: Side projects and areas of interest
 
 ### Rope Physics
 
+<iframe src="https://ryggy.github.io/assets/RopeWebGL/index.html" width="800" height="600" frameborder="0" allowfullscreen></iframe>
+
 
 ### Grass Geometry Shader
 
