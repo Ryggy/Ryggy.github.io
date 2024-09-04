@@ -9,7 +9,12 @@ subtitle: Side projects and areas of interest
 
 ### Rope Physics
 
-<iframe src="https://ryggy.github.io/assets/RopeWebGL/index.html" width="800" height="600" frameborder="0" allowfullscreen></iframe>
+My own implementation of rope physics using Verlet integration.
+
+<div style="position: relative; width: 960px; height: 600px;">
+  <iframe src="https://ryggy.github.io/assets/RopeWebGL/index.html" width="100%" height="100%" frameborder="0" style="position: absolute; top: 0; left: 0;" allowfullscreen></iframe>
+</div>
+
 
 
 ### Grass Geometry Shader
