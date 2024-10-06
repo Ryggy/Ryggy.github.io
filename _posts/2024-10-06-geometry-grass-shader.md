@@ -11,7 +11,7 @@ author: Ryan Williamson
 ---
 # Grass Geometry Shader: Behind the Scenes of My Custom Implementation
 
-[Grass Shader](https://ryggy.github.io/assets/img/grass.png)
+![Grass Shader](https://ryggy.github.io/assets/img/grass.png)
 
 Creating a realistic, dynamic grass shader can elevate the visual quality of a game and add a layer of immersion to the environment. In this post, I'll walk through my journey of developing a grass geometry shader in Unity, highlighting key features, the creation process, and optimization strategies.
 
@@ -63,13 +63,13 @@ The shader exposes several customizable properties through Unity's inspector, al
 
 ### Testing Different Styles
 
-[Grass Shader](https://ryggy.github.io/assets/img/grass1.png)
+![Grass Shader](https://ryggy.github.io/assets/img/grass1.png)
 
-[Grass Shader](https://ryggy.github.io/assets/img/grass2.png)
+![Grass Shader](https://ryggy.github.io/assets/img/grass2.png)
 
-[Grass Shader](https://ryggy.github.io/assets/img/grass3.png)
+![Grass Shader](https://ryggy.github.io/assets/img/grass3.png)
 
-[Grass Shader](https://ryggy.github.io/assets/img/grass4.png)
+![Grass Shader](https://ryggy.github.io/assets/img/grass4.png)
 
 
 ### Optimization Strategies
