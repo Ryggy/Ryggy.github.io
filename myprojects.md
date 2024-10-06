@@ -12,7 +12,7 @@ Utilizing Unity, I implemented key features such as customizable noise parameter
 
 #### Boids
 
-[Check out my implementation here](https://ryggy.github.io/boids.md)
+[Check out my implementation here](https://ryggy.github.io/boids)
 
 <div style="position: relative; width: 960px; height: 600px;">
   <iframe src="https://ryggy.github.io/assets/BoidsWebGL/index.html" width="100%" height="100%" frameborder="0" style="position: absolute; top: 0; left: 0;" scrolling="no" allowfullscreen></iframe>
