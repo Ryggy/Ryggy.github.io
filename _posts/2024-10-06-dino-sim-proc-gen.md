@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dino Sim: Procedural Generation
+title: Dino Sim - Procedural Generation
 subtitle: There's lots to learn!
 gh-repo: JoshuaWMarshall/CreatureFeature
 gh-badge: [star, fork, follow]
