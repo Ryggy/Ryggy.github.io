@@ -6,6 +6,8 @@ subtitle: Side projects and areas of interest
 
 #### Procedural Generation
 
+[Check out my implementation here](https://ryggy.github.io/_posts/2024-10-06-dino-sim-proc-gen)
+
 I developed a procedural generation tool designed to create dynamic environments within our game simulation. This tool allows users to generate unique terrains, strategically place trees, and populate landscapes with dinosaurs, all through an intuitive interface.
 
 Utilizing Unity, I implemented key features such as customizable noise parameters for terrain heightmaps, distinct noise maps for tree placement, and simple controls for dinosaur population. My primary goal was to explore the potential of procedural generation, demonstrating how algorithmic techniques can produce varied and immersive gameplay experiences.
@@ -28,6 +30,7 @@ To take it a step further, I also created a cloth simulation that spawns a grid 
 
 ### Grass Geometry Shader
 
+[Check out my implementation here](https://ryggy.github.io/_posts/2024-10-06-geometry-grass-shader)
 
 I developed a grass shader using HLSL to deepen my understanding of shaders. By implementing a simplified billboard approach, I achieved dynamic effects like wind distortion, height variation, and gradient color transitions, all contributing to a realistic grass appearance. My main goal was to gain hands-on experience with shader programming and the creative possibilities it offers.
 
