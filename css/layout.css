@@ -101,7 +101,18 @@ body {
 /* Six columns side by side */
 .column {
   float: left;
-  width: 16.66%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px; /* fixed thumbnail height */
+  width: 16.6%;
+  overflow: hidden; /* hides overflow if needed */
+}
+
+.column img {
+  max-height: 100%;
+  width: auto;
+  object-fit: contain; /* keeps full image visible */
 }
 
 /* Add a transparency effect for thumnbail images */
