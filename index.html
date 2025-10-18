@@ -8,14 +8,10 @@
 
       Upload your Unemployable (or whatever photo you like) to the assets/images folder
       and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
      -->
     <link rel="icon" href="./assets/images/1311.png" />
-		<title>Unemployables Portfolio</title>
-    <meta name="description" content="A portfolio template for the Unemployables community.">
+		<title>Ryan Williamson Portfolio</title>
+    <meta name="description" content="Game dev portfoliofor the Ryan Williamson">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href="./css/layout.css">
@@ -28,10 +24,8 @@
     <!-- NAVBAR -->
     <div class="navbar">
       <a class="nav-title-link" href="./index.html">
-        <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
-        <span class="nav-title">Portfolio Title</span>
-         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
-        <a class="button" href="mailto:whitevans.eth@gmail.com">
+        <span class="nav-title">Ryan Williamson</span>
+        <a class="button" href="mailto:ryanwilliamson.dev@gmail.com">
           <span class="button-text">Contact Me</span>
         </a>
       </a>
@@ -65,13 +59,83 @@
           -->
         <div id="portfolio-header-text-container">
             <div class="header-text">
-              <span class="main-title">Hey, I'm @ndoherty_eth.</span>
-              <div class="body-text">I’m a freelance designer and developer who aims to help other creatives build out their portfolios, skillset, and businesses.</div>
+              <span class="main-title">Hey, I'm Ryan.</span>
+              <div class="body-text">I’m a designer and developer who brings games to life, one line of code at a time.</div>
             </div>
             <a class="button" id="my-work-link">
               <span class="button-text">Check out my projects</span> 
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
+        </div>
+      </div>
+
+      <div id="highlight-section">
+        <span class="subheader-text">Highlight Reel</span>
+      </div>
+      
+      <!-- Container for the image gallery -->
+      <div class="container">
+        
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+          <img src="./assets/images/curtainfall.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+          <img src="./assets/images/vr-experience.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+          <img src="./assets/images/rpg-item-manager.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+          <img src="./assets/images/fetch-quest.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+          <img src="./assets/images/a-wizards-tall-tale.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+          <img src="./assets/images/level-craft.png" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="./assets/images/curtainfall.png" style="width:100%" onclick="currentSlide(1)" alt="Curtainfall">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./assets/images/vr-experience.png" style="width:100%" onclick="currentSlide(2)" alt="Interactive VR Experience">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./assets/images/rpg-item-manager.png" style="width:100%" onclick="currentSlide(3)" alt="RPG Item Manager">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./assets/images/fetch-quest.png" style="width:100%" onclick="currentSlide(4)" alt="Fetch Quest">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./assets/images/a-wizards-tall-tale.png" style="width:100%" onclick="currentSlide(5)" alt="A Wizards Tall Tale">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./assets/images/level-craft.png" style="width:100%" onclick="currentSlide(6)" alt="Level Craft">
+          </div>
         </div>
       </div>
 
@@ -85,8 +149,9 @@
       <div id="about-section">
         <span class="subheader-text">My Background / About Me</span>
         <div class="about-section-content">
-          <div class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.</div>
-          <div class="body-text">Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut.</div>
+          <div class="body-text">Ryan Williamson is a gameplay programmer based in Brisbane, Australia, fascinated by the hidden systems that make games feel alive. Soon to complete a Bachelor of Games Development (Programming) at SAE Institute, he specialises in building responsive mechanics, intelligent AI behaviours, and development tools that turn ambitious ideas into playable experiences.</div>
+          <div class="body-text">Ryan is driven by curiosity and a desire to understand how small technical choices ripple outward to shape player decisions, emotions, and stories. He enjoys the challenge of solving complex problems with elegant, maintainable code and thrives in collaborative environments where creative and technical thinking come together.</div>
+          <div class="body-text">Outside of development, his love of strategy games, modding, and tabletop design fuels his interest in emergent gameplay and systemic storytelling. He’s constantly exploring new technologies, experimenting with new ideas, and pushing himself to craft systems that surprise, challenge, and delight players.</div>
         </div>
       </div>
 
@@ -119,10 +184,21 @@
                 - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
           -->
           <div class="project-card">
-            <img src="./assets/images/desktop.jpeg" class="project-image">
+            <img src="./assets/images/curtainfall.png" class="project-image">
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">Project Name</div>
-              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+              <div class="subheader-text project-title">Curtainfall</div>
+              <div class="body-text project-card-text">Curtainfall is a fast-paced action roguelike set in a twisted theatrical underworld. Step into the spotlight as a masked performer fighting through cursed circus zones while uncovering fragments of your lost identity.</div>
+            </div>
+            <a class="button" href="./project-pages/curtainfall.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/rpg-item-manager.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">RPG Item Manager</div>
+              <div class="body-text project-card-text">A Unity Editor plugin that streamlines item management with a custom UI built using UI Toolkit. It lets developers easily view, edit, and organise item data, with JSON serialisation for simple, scalable data handling.</div>
             </div>
             <a class="button" href="./project-pages/project-template.html">
               <span class="button-text">Read More</span>
@@ -130,23 +206,112 @@
             </a>
           </div>
           <div class="project-card">
-            <img src="./assets/images/code.jpeg" class="project-image">
+            <img src="./assets/images/vr-experience.png" class="project-image">
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">Project Name</div>
-              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+              <div class="subheader-text project-title">VR Experience</div>
+              <div class="body-text project-card-text">An interactive VR art experience that uses flow-fields and particle systems to let players shape dynamic, element-themed artworks with intuitive hand movements.</div>
             </div>
-            <a class="button" href="./project-pages/project-template.html">
+            <a class="button" href="./project-pages/vr-experience.html">
               <span class="button-text">Read More</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
           </div>
           <div class="project-card">
-            <img src="./assets/images/sketchbook.jpeg" class="project-image">
+            <img src="./assets/images/level-craft.png" class="project-image">
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">Super Long Project Name That Should be Hidden</div>
-              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+              <div class="subheader-text project-title">Level Craft</div>
+              <div class="body-text project-card-text">A Unity package for analysing and improving level design directly in the editor. LevelCraft provides visualisation tools, layout insights, and gameplay metrics to support learning and iteration.</div>
             </div>
-            <a class="button" href="./project-pages/project-template.html">
+            <a class="button" href="./project-pages/level-craft.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/fetch-quest.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Fetch Quest</div>
+              <div class="body-text project-card-text">An arcade-style delivery racing game where you speed through a bustling city, completing deliveries against the clock to climb the leaderboard.</div>
+            </div>
+            <a class="button" href="./project-pages/fetch-quest.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/a-wizards-tall-tale.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">A Wizards Tall Tale</div>
+              <div class="body-text project-card-text">A vertical platformer where you climb a mystical tower as a novice wizard armed with only one spell. Leap, dash, and outsmart obstacles as you master your magic and reach the summit.</div>
+            </div>
+            <a class="button" href="./project-pages/a-wizards-tall-tale.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/top-n-toss.gif" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Top 'n' Toss</div>
+              <div class="body-text project-card-text">Top ‘n’ Toss is a mobile game where the player makes pizzas and deliver them through the unorthodox method of flinging the pizza at the customer.
+              </div>
+            </div>
+            <a class="button" href="./project-pages/top-n-toss.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/dino-sim.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Dino Simulation</div>
+              <div class="body-text project-card-text">A Unity simulation that procedurally generates a living ecosystem and uses Goal-Oriented Action Planning (GOAP) to drive dinosaur behaviour. AI agents make decisions to satisfy needs like hunger, creating emergent prey-predator dynamics.</div>
+            </div>
+            <a class="button" href="./project-pages/dino-sim.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/sword-in-the-stone.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Sword in the Stone</div>
+              <div class="body-text project-card-text">A scene composition and lighting project in Unreal Engine inspired by the classic Sword in the Stone tale. The focus was on creating atmosphere and mood through environment design, composition, and dynamic lighting techniques.</div>
+            </div>
+            <a class="button" href="./project-pages/sword-in-the-stone.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/grass-geometry-shader.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Grass Geometry Shader</div>
+              <div class="body-text project-card-text">A custom geometry shader that generates grass billboards directly on the GPU, optimising performance while maintaining a natural, dynamic look for large outdoor environments.</div>
+            </div>
+            <a class="button" href="./project-pages/grass-geometry-shader.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/cloth-physics.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Cloth Physics</div>
+              <div class="body-text project-card-text">An interactive physics simulation demonstrating rope and cloth behaviour using Verlet integration. Users can place, connect, and cut rope nodes or experiment with a dynamic cloth grid to see how forces and constraints affect movement in real time.</div>
+            </div>
+            <a class="button" href="./project-pages/cloth-physics.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/boids.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Boids</div>
+              <div class="body-text project-card-text">A Boids simulation inspired by Craig Reynolds’ model, showcasing emergent flocking behaviour through autonomous agents. Implemented in Unity with steering, alignment, and collision avoidance to create lifelike group dynamics.</div>
+            </div>
+            <a class="button" href="./project-pages/boids.html">
               <span class="button-text">Read More</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
@@ -158,29 +323,17 @@
     <!-- FOOTER -->
     <div id="footer">
       <!-- 
-        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
-
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="./assets/icons/twitter.svg" class="footer-icon"/>
-      </a>
-      <!-- 
         TODO - Change the email after "mailto" to your contact email 
       
         This should be the same across all pages.
       -->
-      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
+      <a class="icon-link" href="mailto:ryanwilliamson.dev@gmail.com">
         <image src="./assets/icons/mail.svg" class="footer-icon"/>
       </a>
+        <a class="icon-link" href="https://github.com/Ryggy" target="_blank"rel="noopener noreferrer">
+            <image src="./assets/icons/github-mark.svg" class="footer-icon"/>
+        </a>
+    </div>
     </div>
 
 	</body>
