@@ -1,77 +1,50 @@
-
-
-<!-- 
-  IMPORTANT! 
-  
-  Keep this file unchanged to use as a template for all future project pages. 
-
-  For every new project you add to your portfolio, make a copy of this file in the
-  'project-pages' folder with a name related to the project.
--->
-
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-    <!-- 
-      TODO
-
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
-     -->
-     <link rel="icon" href="../assets/images/1311.png" />
-     <title>Unemployables Portfolio</title>
-    <meta name="description" content="A portfolio template for the Unemployables community.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-		<link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/utilities.css">
-
-		<script defer src="../js/script.js"></script>
-	</head>
-	<body>
+    <head>
+        <meta charset="utf-8">
+        <!-- 
+          TODO
+    
+          Upload your Unemployable (or whatever photo you like) to the assets/images folder
+          and change the name of the image below to match the uploaded one
+         -->
+        <link rel="icon" href="../assets/images/1311.png" />
+        <title>Ryan Williamson Portfolio</title>
+        <meta name="description" content="Ryan Williamson's portfolio for game dev.">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <link rel="stylesheet" href="../css/layout.css">
+        <link rel="stylesheet" href="../css/typography.css">
+        <link rel="stylesheet" href="../css/utilities.css">
+    
+        <script defer src="../js/script.js"></script>
+    </head>
+    <body>
     <!-- NAVBAR -->
     <div class="navbar">
-      <a class="nav-title-link" href="../index.html">
-        <!-- 
-          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
-
-          (this should be the same across all pages)
-         -->
-        <span class="nav-title">Portfolio Title</span>
-        <!-- 
-          TODO - Change the email after 'mailto:' to your email address for contact 
-        
-          (this should be the same across all pages)
-        -->
-        <a class="button" href="mailto:whitevans.eth@gmail.com">
-          <span class="button-text">Contact Me</span>
+        <a class="nav-title-link" href="../index.html">
+            <span class="nav-title">Ryan Williamson</span>
+            <a class="button" href="mailto:ryanwilliamson.dev@gmail.com">
+                <span class="button-text">Contact Me</span>
+            </a>
         </a>
-      </a>
     </div>
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
 
       <!-- PROJECT HEADER -->
-      <div id="project-header">
-          <!-- 
-            TODO
-
-            - Change the 'main-title' text to the name of your project
-            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
-            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
-          -->
-        <div class="main-title">Project Name</div>
-        <div class="body-text">A small description about the project goes here, get the reader hooked on the project and tell them why they should continue to read this page. Give it a sweet tagline.</div>
-        <image class="project-header-image" src="../assets/images/desktop.jpeg">
-      </div>
+        <div id="project-header">
+            <div class="main-title">Dino Sim - Procedural Ecosystem Simulation</div>
+            <div class="body-text"><b>Role:</b> Programmer</div>
+            <div><b>Team Size:</b> 3 | <b>Keywords:</b> Unity (C#), A* Pathfinding, GOAP, Simulation</div>
+            <div class="body-text"><b>Overview</b> <br>Dino Sim is a Unity-based simulation that procedurally generates a living, self-sustaining ecosystem populated by AI-driven dinosaurs. Each dinosaur operates using a Goal-Oriented Action Planning (GOAP) system and a custom A* pathfinding implementation, enabling autonomous decision-making and realistic navigation across dynamic terrain.</div>
+            <div class="body-text">Dinosaurs make decisions to satisfy needs such as hunger, thirst, and energy - producing emergent predator-prey dynamics and believable survival behaviour. Players can explore the simulation through an interactive Dino Viewer, following individual dinosaurs and monitoring their stats and actions.</div>
+            <a href="https://github.com/JoshuaWMarshall/CreatureFeature/tree/main/Assets/Scripts"  target="_blank"><b>View project on Github</b></a>
+            <video width=100% controls autoplay muted>
+                <source src="./assets/videos/dino-sim.mp4" type="video/mp4">
+            </video>
+        </div>
 
       <!-- PROJECT DETAILS -->
       <!-- 
@@ -80,85 +53,80 @@
         - Change the 'subheader-text' to whatever header you want for project details
         - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
       -->
-      <div id="project-details">
-        <div class="subheader-text">Project Details / Background</div>
-        <div class="project-details-content">
-          <div class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.</div>
-          <div class="body-text">Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut.</div>
+        <div id="project-details">
+            <div class="subheader-text">My Contributions</div>
+            <div class="project-details-content">
+                <div class="body-text">
+                    <ul>
+                        <li>Developed a complete procedural world generation pipeline, including:
+                        <ul>
+                            <li>Terrain Generation: Used Perlin noise to generate varied landscapes with configurable water levels.</li>
+                            <li>Tree Placement: Implemented a fitness function considering height, slope, proximity to water, and random noise for natural distribution.</li>
+                            <li>Dinosaur Placement: Randomly spawned dinosaurs on valid terrain positions.</li>
+                        </ul></li>
+                        <li>Designed and programmed a hybrid GOAP–State Manager AI system:
+                            <ul>
+                                <li>State Manager controlled high-level needs (hunger, thirst, fatigue).</li>
+                                <li>GOAP system handled low-level task planning (finding food, navigating to it, eating, resting, drinking).</li>
+                            </ul></li>
+                        <li>Created custom A* pathfinding to enable dynamic navigation without relying on Unity’s NavMesh or third-party plugins.</li>
+                        <li>Implemented species-specific behaviour:
+                            <ul>
+                                <li>Stegosaurus herbivores feed on trees.</li>
+                                <li>Raptors hunt Stegosaurus and rest near vegetation.</li>
+                                <li>Both species require water and energy management to survive.</li>
+                            </ul></li>    
+                        <li>Built an interactive Dino Viewer allowing users to focus on specific dinosaurs, view live stats, and observe AI decision cycles.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="subheader-text">Tools & Technologies</div>
+            <div class="body-text">Unity (C#), GOAP AI, A* Pathfinding, Procedural Generation, Perlin Noise</div>
+            <div class="subheader-text">Focus</div>
+            <div class="body-text">This project explored how procedural generation, goal-oriented AI, and custom pathfinding algorithms can combine to simulate emergent, believable ecosystems. It deepened my understanding of AI architecture, systemic design, and optimised navigation without relying on built-in Unity systems.</div>
         </div>
-      </div>
 
       <!-- IMAGE GALLERY -->
-      <div id="project-gallery">
-        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
-        <div class="subheader-text">Image Gallery</div>
-        <div class="project-gallery-content">
-            <!-- 
-              TODO
-
-              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
-
-              Full Width Image:
-
+        <div id="project-gallery">
+            <div class="subheader-text">Image Gallery</div>
+            <div class="project-gallery-content">
                 <div class="gallery-image-container">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
+                    <image class="gallery-image" src="../assets/images/dino-sim1.png">
+                        <span class="image-caption">Procedural Generation – Step 1: Terrain – Heightmap terrain generated using Perlin noise with defined water levels.</span>
                 </div>
-
-              Half Width Image: 
-
-                <div class="gallery-image-container half-width">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
+                <div class="gallery-image-container">
+                    <image class="gallery-image" src="../assets/images/dino-sim2.png">
+                        <span class="image-caption">Procedural Generation – Step 2: Tree Placement – Trees distributed using a fitness function based on elevation, slope, and proximity to water.</span>
                 </div>
-
-              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
-                  - IMAGE_NAME: the name of the image file in assets/images
-                  - IMAGE_CAPTION: to the caption of the image
-            -->
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/code.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/sketchbook.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
-            <div class="gallery-image-container">
-              <img src="../assets/images/camera.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
+                <div class="gallery-image-container">
+                    <image class="gallery-image" src="../assets/images/dino-sim3.png">
+                        <span class="image-caption">Procedural Generation – Step 3: Dino Placement – Dinosaurs spawned on valid terrain positions, populating the ecosystem.</span>
+                </div>
+                <div class="gallery-image-container">
+                    <image class="gallery-image" src="../assets/images/dino-sim4.png">
+                        <span class="image-caption">Stegosaurus Overview – Dino Viewer displaying Stegosaurus stats, need levels, and current AI state.</span>
+                </div>
+                <div class="gallery-image-container">
+                    <image class="gallery-image" src="../assets/images/dino-sim5.png">
+                        <span class="image-caption">Raptor Hunt Sequence – Raptor tracking and attacking a Stegosaurus.</span>
+                </div>
             </div>
         </div>
-      </div>
     </div>
 
     <!-- FOOTER -->
     <div id="footer">
-      <!-- 
-        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
-
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="../assets/icons/instagram.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="../assets/icons/twitter.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change the email after "mailto" to your contact email 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
-        <image src="../assets/icons/mail.svg" class="footer-icon"/>
-      </a>
+        <!-- 
+          TODO - Change the email after "mailto" to your contact email 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" href="mailto:ryanwilliamson.dev@gmail.com">
+            <image src="./assets/icons/mail.svg" class="footer-icon"/>
+        </a>
+        <a class="icon-link" href="https://github.com/Ryggy" target="_blank"rel="noopener noreferrer">
+            <image src="./assets/icons/github-mark.svg" class="footer-icon"/>
+        </a>
     </div>
-
 	</body>
 </html>
